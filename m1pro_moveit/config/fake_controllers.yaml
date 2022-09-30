@@ -1,0 +1,11 @@
+controller_list:
+  - name: fake_m1pro_plan_group_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - joint1
+      - joint2
+      - joint3
+      - joint4
+initial:  # Define initial robot poses.
+  - group: m1pro_plan_group
+    pose: m1pro_pose_home
