@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: m1pro_description
+    relative_path: urdf/m1pro_description.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/m1pro_description.srdf
+  CONFIG:
+    author_name: dobot
+    author_email: libobo@dobot.cc
+    generated_timestamp: 1664271248
